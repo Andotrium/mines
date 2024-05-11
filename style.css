@@ -1,0 +1,87 @@
+#main_div {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    width : 100vw ;
+    height: 100vh;
+    display : flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+
+}
+
+#manyu_lover {
+    position: fixed;
+    right: 0;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#playground {
+    background-color:rgba(127, 255, 212, 0.539);
+    width:85vh;
+    height:85vh;
+    display :flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-radius: 5px;
+
+
+}
+.block {
+    height: 18%;
+    width: 18%;
+    background-color: #ffe4c4;
+
+    border-radius: 5px;
+    border: 1px solid black
+}
+.block:hover {
+    background-color: beige;
+}
+#drop-down {
+    background-color: rgba(24, 27, 25, 0.862);
+    height: 10vh;
+    width:80vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#drop-down p{
+    color: white;
+    font-size: x-large;
+}
+
+select{
+    background-color: rgba(76, 214, 224, 0.585);
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 10px;
+
+
+}
+.bomb {
+    background-image: url('./resources/image\ copy.png');
+    background-size: cover;
+    background-color: unset;
+    border:none;
+}
+.bomb:hover, .diamond:hover{
+    background-color: rgba(0, 255, 255, 0.548);
+}
+.diamond {
+    background-image: url('./resources/image.png');
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+}
