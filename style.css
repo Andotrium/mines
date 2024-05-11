@@ -67,8 +67,8 @@ select{
     font-size: large;
     font-weight: 900;
     border-radius: 10px;
-
-
+    
+    
 }
 .bomb {
     background-image: url('./resources/image\ copy.png');
@@ -84,4 +84,12 @@ select{
     background-size: cover;
     background-color: rgba(255, 0, 0, 0);
     border: none;
+}
+
+button {
+    background-color: rgba(76, 214, 224, 0.585);
+    font: bolder;
+    border-radius: 5px;
+    height: 6vh;
+    width:8vh;
 }
