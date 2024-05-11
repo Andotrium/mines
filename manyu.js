@@ -23,7 +23,7 @@ function go(a){
         document.querySelectorAll('.block')[a].classList.add('bomb');
         setTimeout(()=>{
             if(confirm("do you want to play again?")){
-                location.reload()
+                reset()
             }
         },100)
     }
@@ -33,12 +33,12 @@ function go(a){
     }
 }
 function reset(){
-    location.reload()
+    mine_locations(e.value)
 }
 function main(){
-    mine_locations(e.value)
+    reset()
     e.addEventListener('change', (ee)=>{
-        mine_locations(e.value)
+        reset()
     })
 
 }
